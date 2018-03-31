@@ -9,6 +9,6 @@ if ($res == false) {
     print_r ($otpravka->lastError());
 } else {
     foreach ($res as $rec) {
-        print $rec['id');
+        print $rec['id'];
     }
 }
